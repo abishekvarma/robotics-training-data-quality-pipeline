@@ -1,0 +1,5 @@
+session_id,timestamp_ms,camera_frame_id,imu_ax,imu_ay,imu_az,force_n,action,object_name,recorded_at,rejection_reason
+S002,2099,F104,0.11,0.21,9.69,2.2,move,bottle,2026-09-01T10:05:01,duplicate:event
+S002,2165,F106,0.13,0.20,9.69,,release,bottle,2026-09-01T10:05:01,missing:force_n
+S003,3066,F203,0.12,0.20,9.71,150.0,lift,box,2026-09-01T10:10:01,out_of_range:force_n
+S004,,F306,0.15,0.20,9.69,3.0,release,tool,2026-09-01T10:15:01,missing:timestamp_ms
